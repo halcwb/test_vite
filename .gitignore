@@ -1,0 +1,54 @@
+# Use an opt-in strategy
+*
+
+# Md files
+!*.md
+
+
+# Add .gitignore and .gitattributes
+!.gitignore
+!.gitattributes
+!.dockerignore
+
+# Add license
+!LICENSE.txt
+!LICENSE
+
+
+# Add editor config
+!.editorconfig
+
+
+# Add local tools config
+!/.config/
+!/.config/*.json
+
+
+!package.json
+!package-lock.json
+
+!vite.config.js
+!vite.config.mts
+!index.html
+!eslint.config.js
+
+# Add fsharp project files
+!*.fsproj
+
+# Add fsharp source files
+!*.fs
+
+# add javascript files
+!*.js
+!*.ts
+!*.tsx
+!*.jsx
+!*.css
+
+# add source folders
+!/src/
+!/src/assets/
+!/src/assets/*
+!/public/
+!/public/*
+!/Client/
